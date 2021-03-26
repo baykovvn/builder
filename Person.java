@@ -42,11 +42,11 @@ public class Person {
     }
 
     public boolean hasAge() {
-        return this.age >= 0 ? true : false;
+        return this.age >= 0;
     }
 
     public boolean hasAddress() {
-        return this.address.length() != 0 ? true : false;
+        return this.address.length() != 0;
     }
 
     public String getName() {
